@@ -8,10 +8,7 @@ namespace garushisu_patcher
 {
     public partial class LoadForm : Form
     {
-        public static String savedAddress;
-        public static String savedOsuPath;
-        public static String savedPatcherPath;
-
+        
         static DataTable dataTable;
 
         private static LoadForm instance;

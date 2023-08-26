@@ -50,7 +50,7 @@
             // textboxPreset
             // 
             this.textboxPreset.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textboxPreset.Location = new System.Drawing.Point(12, 105);
+            this.textboxPreset.Location = new System.Drawing.Point(104, 109);
             this.textboxPreset.Name = "textboxPreset";
             this.textboxPreset.Size = new System.Drawing.Size(195, 29);
             this.textboxPreset.TabIndex = 10;
@@ -61,7 +61,7 @@
             this.lblName.BackColor = System.Drawing.Color.Transparent;
             this.lblName.Font = new System.Drawing.Font("Kristen ITC", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblName.Location = new System.Drawing.Point(12, 75);
+            this.lblName.Location = new System.Drawing.Point(163, 86);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(81, 17);
             this.lblName.TabIndex = 11;
@@ -70,7 +70,7 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Kristen ITC", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(178, 157);
+            this.btnSave.Location = new System.Drawing.Point(168, 157);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 12;

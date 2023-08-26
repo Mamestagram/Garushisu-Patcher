@@ -14,9 +14,18 @@ namespace garushisu_patcher
 
         static DataTable dataTable;
 
+        private static LoadForm instance;
+
+        public static LoadForm LoadFormInstance
+        {
+            get { return instance; }
+            set { instance = value; }
+        }
+
         public LoadForm()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void cmbPreset_SelectedIndexChanged(object sender, EventArgs e)
@@ -65,11 +74,10 @@ namespace garushisu_patcher
 
                     Process.Start(pi);
 
-                    Close();
-
-                    return;
+                    MainForm.Instance.Close();
 
                 }
+                return;
             } finally
             {
                 command.Dispose();
@@ -83,6 +91,12 @@ namespace garushisu_patcher
             {
                 cmbPreset.Items.Add(row.ItemArray[0]);
             }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            EditForm form = new EditForm();
+            form.ShowDialog();
         }
     }
 }

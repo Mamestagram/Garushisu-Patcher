@@ -49,10 +49,9 @@ namespace garushisu_patcher
 
                     Process.Start(pi);
 
-                    Close();
-                    
-                    return;
+                    MainForm.Instance.Close();
                 }
+                return;
             }
             finally
             {
